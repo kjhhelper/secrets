@@ -1,0 +1,11 @@
+<h1>Sessions#login</h1>
+<p>Find me in app/views/sessions/login.html.erb</p>
+<form action="/sessions" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+  Email <input type="text" name="user[email]" value="">
+  Passworld <input type="password" name="user[password]" value="">
+  <input type="submit"  value="submit">
+</form>
+
+<% if flash[:danger]%>
+<% end %>
