@@ -1,11 +1,11 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h2> Register</h2>
+<p>Please fill in the following information:</p>
 
 <form action="/users"  method="post">
   <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
-  email <input type="text" name="user[email]" value="">
-  name <input type="text" name="user[name]" value="">
-  password <input type="password" name="user[password]" value="">
+  Email <input type="text" name="user[email]" value=""><br>
+  Name <input type="text" name="user[name]" value=""><br>
+  Password <input type="password" name="user[password]" value=""><br>
   <!-- password confirmation <input type="password" name="user[password]" value=""> -->
   <input type="submit" value="submit">
 </form>

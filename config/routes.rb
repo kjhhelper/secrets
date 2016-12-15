@@ -18,7 +18,7 @@ end
 
 
 # AWS Deployment
-#   -set up the AWS instance - ubuntu 14.04 16.04, storage, key pair value
+#   -set up the AWS instance - ubuntu 14.04, storage, key pair value
 #   -ruby, rvm(manage version of ruby and rails),rails, passenger - app server
 #   -nginx -web server
 #   -nodejs
